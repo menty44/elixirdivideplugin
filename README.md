@@ -20,3 +20,8 @@ and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/divisible](https://hexdocs.pm/divisible).
 
 # elixirdivideplugin
+
+## Examples
+
+      iex> Divisible.div(100, 20)
+      5.0

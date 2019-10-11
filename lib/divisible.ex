@@ -4,15 +4,15 @@ defmodule Divisible do
   """
 
   @doc """
-  Hello world.
+  Plugin for dividing.
 
   ## Examples
 
-      iex> Divisible.hello()
-      :world
+      iex> Divisible.div(100, 20)
+      5.0
 
   """
-  def hello do
-    :world
-  end
+  def div(a, b) do  
+    a / b  
+  end 
 end
